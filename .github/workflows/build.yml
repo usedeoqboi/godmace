@@ -16,11 +16,11 @@ jobs:
       - name: Check out source
         uses: actions/checkout@v7
 
-      - name: Set up Java 25
+      - name: Set up Java 21
         uses: actions/setup-java@v6
         with:
           distribution: temurin
-          java-version: '25'
+          java-version: '21'
           cache: maven
 
       - name: Build plugin
@@ -37,5 +37,5 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: GodMace
-          path: '**/target/godmace-1.1.0.jar'
+          path: '**/target/godmace-*.jar'
           if-no-files-found: error
