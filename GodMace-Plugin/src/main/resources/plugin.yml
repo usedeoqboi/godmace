@@ -1,0 +1,5 @@
+name: GodMace
+version: 1.0.0
+main: com.example.godmace.GodMacePlugin
+api-version: '26.2'
+description: Adds a marked God Mace that kicks its player victims.
