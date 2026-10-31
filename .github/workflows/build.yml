@@ -31,11 +31,11 @@ jobs:
             echo "Could not find pom.xml in the checked-out repository." >&2
             exit 1
           fi
-          mvn --batch-mode -f "$pom_path" package
+          mvn --batch-mode -f "$pom_path" clean package
 
       - name: Upload plugin JAR
         uses: actions/upload-artifact@v6
         with:
           name: GodMace
-          path: '**/target/godmace-1.0.0.jar'
+          path: '**/target/godmace-1.1.0.jar'
           if-no-files-found: error
