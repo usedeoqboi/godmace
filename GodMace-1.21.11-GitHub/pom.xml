@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>godmace</artifactId>
-    <version>1.2.0</version>
+    <version>1.21.11</version>
     <name>GodMace</name>
 
     <properties>
