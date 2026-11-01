@@ -2,4 +2,4 @@ name: GodMace
 version: 1.21.11
 main: com.example.godmace.GodMacePlugin
 api-version: '1.21'
-description: Adds a marked God Mace that kicks its player victims.
+description: Adds a craftable God Mace that kicks player victims on a direct kill.
