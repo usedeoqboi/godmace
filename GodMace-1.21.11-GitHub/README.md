@@ -10,7 +10,7 @@ Heavy Core      | Mace           | Heavy Core
 Netherite Block | Sculk Catalyst | Netherite Block
 ```
 
-The recipe produces one marked God Mace. No commands or permissions are added.
+The recipe produces one marked God Mace. The plugin also supports `/give <online-player> god_mace`; ordinary `/give` item commands are passed through to Minecraft.
 
 ## Build
 
